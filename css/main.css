@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cart_container {
+    margin: 0;
+    padding: 0;
+}
+
+.clothes img {
+    width: 300px;
+    height: 300px;
+}
+
+.clothes_container form {
+    display: block;
+}
+
+.clothes form {
+    float: left;
+    margin: auto;
+    padding: 20px;
+}
+
+.clothes input[type="number"] {
+    width: 40px;
+    height: 35px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    outline: none;
+    display: block;
+    text-align: center;
+}
+
+.clothes input[type="submit"] {
+    height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    background: #2cb6e6;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 40px auto;
+    margin-top: 0;
+}
+
+.table tr td {
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    background: #2cb6e8;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+    border: none;
+    
+}
+
